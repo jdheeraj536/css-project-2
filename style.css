@@ -26,7 +26,8 @@ span{
 @media only screen and (min-width:360px) and (max-width:1282px)  {
     .content{
         font-size: 34px;
-        margin-left: -107px;
+        position: absolute;
+        left: 7px;
     }
     
 }
@@ -44,8 +45,11 @@ span{
 @media only screen and (min-width:360px) and (max-width:1282px) {
     .full-background{
         height: 190vh;
-        margin-top: -44px;
-        width: 108vw;
+        margin-top: -52px;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -59,7 +63,7 @@ span{
 }
 @media only screen and (min-width:360px) and (max-width:1282px)  {
     .icon{
-        margin-left:-80px ;
+        margin-left:-53px ;
     }
 }
 .add1{
@@ -70,6 +74,12 @@ span{
     position: relative;
     top: 19px;
     opacity: 0.8;
+}
+@media only screen and (min-width:360px) and (max-width:1282px) {
+    .add1{
+        visibility: hidden;
+    }
+    
 }
 .container{
     display: flex;
@@ -93,7 +103,7 @@ span{
         align-content: center;
         justify-content: center;
         align-items: center;
-       
+      
 
     }
     
@@ -120,7 +130,7 @@ span{
 @media only screen and (min-width:360px) and (max-width:1282px)  {
     .item{
         width: 322px;
-        margin-left: -21px;
+        margin-left: -34px;
         height: 47vh;
     }
 }
