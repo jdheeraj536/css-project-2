@@ -178,7 +178,7 @@ a{
 @media only screen and (min-width:360px) and (max-width:1282px){
     .popup{
         position: absolute;
-        left: 11px;
+        left: 6px;
         width: 347px;
         top: 307px;
         height: 273px;
@@ -270,7 +270,7 @@ a{
     height: 986px;
     top: 116px;
     overflow: hidden;
-    filter: brightness(0.4);
+    filter: brightness(0.3);
 }
 @media only screen and (min-width:360px) and (max-width:1282px){
     .full-background-2{
