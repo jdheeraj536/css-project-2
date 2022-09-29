@@ -58,21 +58,22 @@ span{
     color: #00A5EC;
     font-size: 47px;
     position: relative;
-    left: 60%;
-    top: 29px;
+    left: 63%;
+    top: 42px;
 }
 @media only screen and (min-width:360px) and (max-width:1282px)  {
     .icon{
-        margin-left:-53px ;
+            margin-left: -78px;
+             top: 35px;
     }
 }
 .add1{
     color: black;
     font-size: 24px;
     font-weight: bold;
-    left: 61%;
+    left: 64%;
     position: relative;
-    top: 19px;
+    top: 37px;
     opacity: 0.8;
 }
 @media only screen and (min-width:360px) and (max-width:1282px) {
@@ -247,9 +248,7 @@ a{
         width: 344px;
     } 
 }
-.line-pop{
 
-}
 .pop1{
     margin-left: 20px;
     opacity: 0.8;
@@ -287,7 +286,7 @@ a{
 .container2{
     position: relative;
     top: 77px;
-    left: 224px; 
+    left: -142px; 
 }
 
 .item3{
@@ -301,46 +300,82 @@ a{
     box-shadow: 0px 0px 10px #00000057;
     filter: blur(0.4px);
 }
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .item3{
+        position: absolute;
+        left: -396px;
+        width: 335px;
+        top: -87px;
+        height: 394px;
+    }
+}
+
 .trip2{
     color: #00A5EC;
     text-align: center;
     padding: 10px;
     position: relative;
     top: 10px;
-    right: 17px;
+    right: 50px;
 }
 .back{
     color: black;
     font-size: 25px;
     position: absolute;
-    top: 180px;
+    top: 227px;
     z-index: +1;
-    left: 584px;
+    left: 445px;
     opacity: 0.7;
 }
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .back{
+        position: relative;
+        left: 15px;
+        top: 101px;
+    }
+}
+
 .add2{
     color: black;
     font-size: 17px;
-    left: 610px;
+    left: 462px;
     position: relative;
-    top: 175px;
+    top: 220px;
     z-index: +1;
    
 }
-.icon3{
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .add2{
+        position: relative;
+        left: 9px;
+        top: 97px;
+    }
+}
+.icon-page-3{
     color: #00A5EC;
     font-size: 40px;
     position: relative;
-    left: 54%;
-    top: 56px;
+    left: 44%;
+    top: 109px;
 }
-.add3{
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .icon-page-3{
+        top: 38px;
+    }
+}
+.add-page-3{
     color: black;
     font-size: 20px;
     font-weight: bold;
-    left: 55%;
+    left: 45%;
     position: relative;
-    top: 49px;
+    top: 99px;
+
+}
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .add-page-3{
+        visibility: hidden;
+    }
 }
 
 
