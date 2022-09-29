@@ -99,10 +99,7 @@ span{
     .container{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+        position: relative;
       
 
     }
@@ -165,10 +162,7 @@ a{
 
 
 /* PAGE 2 CSS */
-.body1{
-    filter: brightness(0.5);
-   
-}
+
 .popup{
     width: 392px;
     height: 220px;
@@ -178,7 +172,20 @@ a{
     z-index: +1;
     top: 203px;
     border-radius: 15px;
+    display: flex;
 }
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .popup{
+        position: absolute;
+        left: 11px;
+        width: 347px;
+        top: 307px;
+        height: 273px;
+
+    }
+}
+
+
 .mark{
     position: absolute;
     bottom: 182px;
@@ -187,6 +194,13 @@ a{
     color: black;
     opacity: 0.6;
 }
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .mark{
+        left: 308px;
+        bottom: 230px;
+    }
+}
+
 .btn{
     width: 140px;
     height: 40px;
@@ -200,6 +214,16 @@ a{
     cursor: pointer;
     filter: blur(0.4px);
 }
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .btn{
+        position: absolute;
+        top: 168px;
+        left: 139px;
+        width: 200px;
+        height: 51px;
+        font-size: 22px;
+    }
+}
 .learn{
     margin-left: 8px;
     margin-top: 20px;
@@ -208,6 +232,23 @@ a{
     background-color: #F7F7F7;
     height: 30px;
     filter: blur(0.5px);
+}
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .learn{
+        width: 315px;
+        position: absolute;
+        top: 64px;
+        left: 7px;
+        height: 49px;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .line-pop{
+        width: 344px;
+    } 
+}
+.line-pop{
+
 }
 .pop1{
     margin-left: 20px;
@@ -229,17 +270,25 @@ a{
     right: 0;
     height: 986px;
     top: 116px;
-    filter: brightness(0.3);
+    overflow: hidden;
+    filter: brightness(0.4);
+}
+@media only screen and (min-width:360px) and (max-width:1282px){
+    .full-background-2{
+        position: absolute;
+        height: 205vh;
+        
+    }
 }
 
 
 /* <!---------        Page 3            -----------> */
 
-/* .container2{
+.container2{
     position: relative;
     top: 77px;
     left: 224px; 
-} */
+}
 
 .item3{
     width: 468px;
